@@ -1,0 +1,30 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hmxl.yuedemo.fragment.FriendFragment">
+    <LinearLayout
+        android:id="@+id/layout_addfriend"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp">
+        <ImageView
+            android:background="@drawable/icon_map_male"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:text="新的朋友"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <!-- TODO: Update blank fragment layout -->
+    <ListView
+        android:layout_marginTop="50dp"
+        android:id="@+id/lv_friend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </ListView>
+</FrameLayout>

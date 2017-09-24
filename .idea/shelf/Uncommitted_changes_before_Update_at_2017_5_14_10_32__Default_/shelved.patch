@@ -1,0 +1,48 @@
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/vcs.xml	(revision )
++++ .idea/vcs.xml	(revision )
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/gradle.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/gradle.xml	(revision 88257dbd5cf251052a590ddb46c692dd41b19583)
++++ .idea/gradle.xml	(revision )
+@@ -5,7 +5,7 @@
+       <GradleProjectSettings>
+         <option name="distributionType" value="LOCAL" />
+         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+-        <option name="gradleHome" value="C:\Program Files\Android\Android Studio\gradle\gradle-2.14.1" />
++        <option name="gradleHome" value="D:\Program Files\Android\Android Studio\gradle\gradle-2.14.1" />
+         <option name="modules">
+           <set>
+             <option value="$PROJECT_DIR$" />
+\ No newline at end of file
+Index: build.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- build.gradle	(revision 88257dbd5cf251052a590ddb46c692dd41b19583)
++++ build.gradle	(revision )
+@@ -5,7 +5,7 @@
+         jcenter()
+     }
+     dependencies {
+-        classpath 'com.android.tools.build:gradle:2.2.0'
++        classpath 'com.android.tools.build:gradle:2.2.3'
+ 
+         // NOTE: Do not place your application dependencies here; they belong
+         // in the individual module build.gradle files
